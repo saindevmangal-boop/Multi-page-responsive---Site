@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Maincraft — Home</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<h1>Maincraft</h1>
+		<nav class="site-nav">
+			<a href="index.html" class="active">Home</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+			<a href="submissions.html">Submissions</a>
+		</nav>
+	</header>
+
+	<main class="container">
+		<section class="card" style="display:flex;gap:24px;align-items:center;flex-wrap:wrap;">
+			<div style="flex:1;min-width:260px">
+				<h2 style="margin-top:0">Build with Maincraft</h2>
+				<p class="muted">Full Stack Web Development Internship — Task 3</p>
+				<p>Interactive contact form with client-side validation and LocalStorage to save and view submissions locally.</p>
+				<p style="margin-top:18px">
+					<a href="contact.html" style="text-decoration:none"><button>Contact Us</button></a>
+					<a href="submissions.html" style="text-decoration:none;margin-left:10px"><button style="background:transparent;color:var(--accent-start);box-shadow:none;border:1px solid rgba(99,102,241,0.14)">View Submissions</button></a>
+				</p>
+			</div>
+			<div style="flex:1;min-width:260px;">
+				<div style="height:180px;border-radius:8px;background:linear-gradient(135deg,var(--accent-start),var(--accent-end));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;box-shadow:0 8px 30px rgba(2,6,23,0.12)">Maincraft</div>
+			</div>
+		</section>
+
+		<section style="margin-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px">
+			<div class="card">
+				<h3>Modern UI</h3>
+				<p class="muted">Clean components, responsive layout, and accessible interactions.</p>
+			</div>
+			<div class="card">
+				<h3>Local Storage</h3>
+				<p class="muted">Save submissions to the browser for privacy and quick access.</p>
+			</div>
+			<div class="card">
+				<h3>Client Validation</h3>
+				<p class="muted">Fast feedback and user-friendly error handling before saving.</p>
+			</div>
+		</section>
+
+		<footer style="margin-top:22px;text-align:center;color:var(--muted)">www.maincrafts.com — hr@maincrafts.com</footer>
+	</main>
+</body>
+</html>
+
